@@ -1,5 +1,4 @@
-import { fstat } from "fs";
-import { readJsonConfigFile } from "typescript";
+
 import Course from "../models/course.model.js"
 import AppError from "../utils/error.util.js";
 import cloudinary from 'cloudinary';
