@@ -4,7 +4,7 @@ import asyncHandler from '../middleware/asyncHandler.middleware.js';
 import User from '../models/user.model.js';
 import AppError from '../utils/error.util.js';
 import { razorpay } from '../server.js';
-import Payment from '../models/Payment.model.js';
+import Payment from '../models/payment.model.js';
 
 export const buySubscription = asyncHandler(async (req, res, next) => {
   const { id } = req.user;
